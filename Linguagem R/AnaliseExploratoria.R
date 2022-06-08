@@ -12,6 +12,9 @@ library("plyr")
 library(tidyverse)
 library(readr)
 
+#Importe os dados da planilha “Taxas – Escolas 2010” hospedada em 
+#https://dados.gov.br/dataset/media-de-alunos-por-turma-na-educacao-basica
+
 path <- "C:\\Trabalho\\escolas_media_alunos_turma_2010.xls"
 
 pnNorte <- read_excel(path,sheet = "NORTE", na = "--", skip = 8)
