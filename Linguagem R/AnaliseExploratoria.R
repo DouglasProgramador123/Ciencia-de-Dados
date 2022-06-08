@@ -28,65 +28,65 @@ View(pnSudeste)
 View(pnSul)
 View(pnCentro)
 
-norte <-data.frame(PrimeiroAno=c(pnNorte$`1º Ano`),
-                   SegundoAno=c(pnNorte$`1ª série/ 2° ano`),
-                   TerceiroAno=c(pnNorte$`2ª série/ 3° ano`),
-                   QuartoAno=c(pnNorte$`3ª série/ 4° ano`),
-                   QuintoAno=c(pnNorte$`4ª série/ 5° ano`),
-                   SextoAno=c(pnNorte$`5ª série/ 6° ano`),
-                   SetimoAno=c(pnNorte$`6ª série/ 7° ano`),
-                   OitavoAno=c(pnNorte$`7ª série/ 8° ano`),
-                   NonoAno=c(pnNorte$`8ª série/ 9° ano`))
+norte <-data.frame(PrimeiroAno=c(pnNorte$`1Âº Ano`),
+                   SegundoAno=c(pnNorte$`1Âª sÃ©rie/ 2Â° ano`),
+                   TerceiroAno=c(pnNorte$`2Âª sÃ©rie/ 3Â° ano`),
+                   QuartoAno=c(pnNorte$`3Âª sÃ©rie/ 4Â° ano`),
+                   QuintoAno=c(pnNorte$`4Âª sÃ©rie/ 5Â° ano`),
+                   SextoAno=c(pnNorte$`5Âª sÃ©rie/ 6Â° ano`),
+                   SetimoAno=c(pnNorte$`6Âª sÃ©rie/ 7Â° ano`),
+                   OitavoAno=c(pnNorte$`7Âª sÃ©rie/ 8Â° ano`),
+                   NonoAno=c(pnNorte$`8Âª sÃ©rie/ 9Â° ano`))
 
-nordesteExt <-data.frame(PrimeiroAno=c(pnNordesteExt$`1º Ano`),
-                         SegundoAno=c(pnNordesteExt$`1ª série/ 2° ano`),
-                         TerceiroAno=c(pnNordesteExt$`2ª série/ 3° ano`),
-                         QuartoAno=c(pnNordesteExt$`3ª série/ 4° ano`),
-                         QuintoAno=c(pnNordesteExt$`4ª série/ 5° ano`),
-                         SextoAno=c(pnNordesteExt$`5ª série/ 6° ano`),
-                         SetimoAno=c(pnNordesteExt$`6ª série/ 7° ano`),
-                         OitavoAno=c(pnNordesteExt$`7ª série/ 8° ano`),
-                         NonoAno=c(pnNordesteExt$`8ª série/ 9° ano`))
+nordesteExt <-data.frame(PrimeiroAno=c(pnNordesteExt$`1Âº Ano`),
+                         SegundoAno=c(pnNordesteExt$`1Âª sÃ©rie/ 2Â° ano`),
+                         TerceiroAno=c(pnNordesteExt$`2Âª sÃ©rie/ 3Â° ano`),
+                         QuartoAno=c(pnNordesteExt$`3Âª sÃ©rie/ 4Â° ano`),
+                         QuintoAno=c(pnNordesteExt$`4Âª sÃ©rie/ 5Â° ano`),
+                         SextoAno=c(pnNordesteExt$`5Âª sÃ©rie/ 6Â° ano`),
+                         SetimoAno=c(pnNordesteExt$`6Âª sÃ©rie/ 7Â° ano`),
+                         OitavoAno=c(pnNordesteExt$`7Âª sÃ©rie/ 8Â° ano`),
+                         NonoAno=c(pnNordesteExt$`8Âª sÃ©rie/ 9Â° ano`))
 
-nordesteSom <-data.frame(PrimeiroAno=c(pnNordesteSom$`1º Ano`),
-                         SegundoAno=c(pnNordesteSom$`1ª série/ 2° ano`),
-                         TerceiroAno=c(pnNordesteSom$`2ª série/ 3° ano`),
-                         QuartoAno=c(pnNordesteSom$`3ª série/ 4° ano`),
-                         QuintoAno=c(pnNordesteSom$`4ª série/ 5° ano`),
-                         SextoAno=c(pnNordesteSom$`5ª série/ 6° ano`),
-                         SetimoAno=c(pnNordesteSom$`6ª série/ 7° ano`),
-                         OitavoAno=c(pnNordesteSom$`7ª série/ 8° ano`),
-                         NonoAno=c(pnNordesteSom$`8ª série/ 9° ano`))
+nordesteSom <-data.frame(PrimeiroAno=c(pnNordesteSom$`1Âº Ano`),
+                         SegundoAno=c(pnNordesteSom$`1Âª sÃ©rie/ 2Â° ano`),
+                         TerceiroAno=c(pnNordesteSom$`2Âª sÃ©rie/ 3Â° ano`),
+                         QuartoAno=c(pnNordesteSom$`3Âª sÃ©rie/ 4Â° ano`),
+                         QuintoAno=c(pnNordesteSom$`4Âª sÃ©rie/ 5Â° ano`),
+                         SextoAno=c(pnNordesteSom$`5Âª sÃ©rie/ 6Â° ano`),
+                         SetimoAno=c(pnNordesteSom$`6Âª sÃ©rie/ 7Â° ano`),
+                         OitavoAno=c(pnNordesteSom$`7Âª sÃ©rie/ 8Â° ano`),
+                         NonoAno=c(pnNordesteSom$`8Âª sÃ©rie/ 9Â° ano`))
 
-sudeste <-data.frame(PrimeiroAno=c(pnSudeste$`1º Ano`),
-                     SegundoAno=c(pnSudeste$`1ª série/ 2° ano`),
-                     TerceiroAno=c(pnSudeste$`2ª série/ 3° ano`),
-                     QuartoAno=c(pnSudeste$`3ª série/ 4° ano`),
-                     QuintoAno=c(pnSudeste$`4ª série/ 5° ano`),
-                     SextoAno=c(pnSudeste$`5ª série/ 6° ano`),
-                     SetimoAno=c(pnSudeste$`6ª série/ 7° ano`),
-                     OitavoAno=c(pnSudeste$`7ª série/ 8° ano`),
-                     NonoAno=c(pnSudeste$`8ª série/ 9° ano`))
+sudeste <-data.frame(PrimeiroAno=c(pnSudeste$`1Âº Ano`),
+                     SegundoAno=c(pnSudeste$`1Âª sÃ©rie/ 2Â° ano`),
+                     TerceiroAno=c(pnSudeste$`2Âª sÃ©rie/ 3Â° ano`),
+                     QuartoAno=c(pnSudeste$`3Âª sÃ©rie/ 4Â° ano`),
+                     QuintoAno=c(pnSudeste$`4Âª sÃ©rie/ 5Â° ano`),
+                     SextoAno=c(pnSudeste$`5Âª sÃ©rie/ 6Â° ano`),
+                     SetimoAno=c(pnSudeste$`6Âª sÃ©rie/ 7Â° ano`),
+                     OitavoAno=c(pnSudeste$`7Âª sÃ©rie/ 8Â° ano`),
+                     NonoAno=c(pnSudeste$`8Âª sÃ©rie/ 9Â° ano`))
 
-sul <-data.frame(PrimeiroAno=c(pnSul$`1º Ano`),
-                 SegundoAno=c(pnSul$`1ª série/ 2° ano`),
-                 TerceiroAno=c(pnSul$`2ª série/ 3° ano`),
-                 QuartoAno=c(pnSul$`3ª série/ 4° ano`),
-                 QuintoAno=c(pnSul$`4ª série/ 5° ano`),
-                 SextoAno=c(pnSul$`5ª série/ 6° ano`),
-                 SetimoAno=c(pnSul$`6ª série/ 7° ano`),
-                 OitavoAno=c(pnSul$`7ª série/ 8° ano`),
-                 NonoAno=c(pnSul$`8ª série/ 9° ano`))
+sul <-data.frame(PrimeiroAno=c(pnSul$`1Âº Ano`),
+                 SegundoAno=c(pnSul$`1Âª sÃ©rie/ 2Â° ano`),
+                 TerceiroAno=c(pnSul$`2Âª sÃ©rie/ 3Â° ano`),
+                 QuartoAno=c(pnSul$`3Âª sÃ©rie/ 4Â° ano`),
+                 QuintoAno=c(pnSul$`4Âª sÃ©rie/ 5Â° ano`),
+                 SextoAno=c(pnSul$`5Âª sÃ©rie/ 6Â° ano`),
+                 SetimoAno=c(pnSul$`6Âª sÃ©rie/ 7Â° ano`),
+                 OitavoAno=c(pnSul$`7Âª sÃ©rie/ 8Â° ano`),
+                 NonoAno=c(pnSul$`8Âª sÃ©rie/ 9Â° ano`))
 
-centro <-data.frame(PrimeiroAno=c(pnCentro$`1º Ano`),
-                    SegundoAno=c(pnCentro$`1ª série/ 2° ano`),
-                    TerceiroAno=c(pnCentro$`2ª série/ 3° ano`),
-                    QuartoAno=c(pnCentro$`3ª série/ 4° ano`),
-                    QuintoAno=c(pnCentro$`4ª série/ 5° ano`),
-                    SextoAno=c(pnCentro$`5ª série/ 6° ano`),
-                    SetimoAno=c(pnCentro$`6ª série/ 7° ano`),
-                    OitavoAno=c(pnCentro$`7ª série/ 8° ano`),
-                    NonoAno=c(pnCentro$`8ª série/ 9° ano`))
+centro <-data.frame(PrimeiroAno=c(pnCentro$`1Âº Ano`),
+                    SegundoAno=c(pnCentro$`1Âª sÃ©rie/ 2Â° ano`),
+                    TerceiroAno=c(pnCentro$`2Âª sÃ©rie/ 3Â° ano`),
+                    QuartoAno=c(pnCentro$`3Âª sÃ©rie/ 4Â° ano`),
+                    QuintoAno=c(pnCentro$`4Âª sÃ©rie/ 5Â° ano`),
+                    SextoAno=c(pnCentro$`5Âª sÃ©rie/ 6Â° ano`),
+                    SetimoAno=c(pnCentro$`6Âª sÃ©rie/ 7Â° ano`),
+                    OitavoAno=c(pnCentro$`7Âª sÃ©rie/ 8Â° ano`),
+                    NonoAno=c(pnCentro$`8Âª sÃ©rie/ 9Â° ano`))
 
 #foi criada uma forma de acessar cada regiao atraves de uma variavel
 regiao <- norte
@@ -160,11 +160,11 @@ medCentroNono <- mean(regiao$NonoAno, na.rm = TRUE)
 grafico_mediaRegiao <- function(medRegiao, nomePlot, ylimMin= 0, ylimMax= 30){
   grafico <- c(medRegiao[[1]], medRegiao[[2]], medRegiao[[3]], medRegiao[[4]], medRegiao[[5]],
                medRegiao[[6]], medRegiao[[7]], medRegiao[[8]], medRegiao[[9]])
-  series <- c("1º Ano", "2º Ano", "3º Ano", "4º Ano", "5º Ano", "6º Ano", "7º Ano","8º Ano","9º Ano")
+  series <- c("1Âº Ano", "2Âº Ano", "3Âº Ano", "4Âº Ano", "5Âº Ano", "6Âº Ano", "7Âº Ano","8Âº Ano","9Âº Ano")
   bar <- barplot(grafico,
                  main = nomePlot,
-                 xlab = "Série",
-                 ylab = "Média",
+                 xlab = "SÃ©rie",
+                 ylab = "MÃ©dia",
                  ylim =c(ylimMin,ylimMax),
                  names.arg = series) 
   text(x = bar, y = grafico+1, labels = round(grafico,2))
@@ -175,39 +175,39 @@ grafico_mediaRegiao <- function(medRegiao, nomePlot, ylimMin= 0, ylimMax= 30){
 medNorte <- list(medNortePrimeiro,medNorteSegundo,medNorteTerceiro,medNorteQuarto,medNorteQuinto,
                  medNorteSexto,medNorteSetimo,medNorteOitavo,medNorteNono)
 medRegiao <- medNorte
-nomePlot <- "Média de Alunos - Região Norte"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Norte"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 medNordesteExt <- list(medNordesteExtPrimeiro,medNordesteExtSegundo,medNordesteExtTerceiro,
                        medNordesteExtQuarto,medNordesteExtQuinto,medNordesteExtSexto,medNordesteExtSetimo,
                        medNordesteExtOitavo,medNordesteExtNono)
 medRegiao <- medNordesteExt
-nomePlot <- "Média de Alunos - Região Nordeste (exceto Maranhão e Bahia)"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Nordeste (exceto MaranhÃ£o e Bahia)"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 medNordesteSom <- list(medNordesteSomPrimeiro,medNordesteSomSegundo,medNordesteSomTerceiro,
                        medNordesteSomQuarto,medNordesteSomQuinto,medNordesteSomSexto,
                        medNordesteSomSetimo,medNordesteSomOitavo,medNordesteSomNono)
 medRegiao <- medNordesteSom
-nomePlot <- "Média de Alunos - Região Nordeste (somente Maranhão e Bahia)"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Nordeste (somente MaranhÃ£o e Bahia)"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 medSudeste <- list(medSudestePrimeiro,medSudesteSegundo,medSudesteTerceiro,medSudesteQuarto,
                    medSudesteQuinto,medSudesteSexto,medSudesteSetimo,medSudesteOitavo,medSudesteNono)
 medRegiao <- medSudeste
-nomePlot <- "Média de Alunos - Região Sudeste"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Sudeste"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 medSul <- list(medSulPrimeiro,medSulSegundo,medSulTerceiro,medSulQuarto,medSulQuinto,medSulSexto,
                medSulSetimo,medSulOitavo,medSulNono)
 medRegiao <- medSul
-nomePlot <- "Média de Alunos - Região Sul"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Sul"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 medCentro <- list(medCentroPrimeiro,medCentroSegundo,medCentroTerceiro,medCentroQuarto,medCentroQuinto,
                   medCentroSexto,medCentroSetimo,medCentroOitavo,medCentroNono)
 medRegiao <- medCentro
-nomePlot <- "Média de Alunos - Região Centro Oeste"
+nomePlot <- "MÃ©dia de Alunos - RegiÃ£o Centro Oeste"
 grafico_mediaRegiao(medRegiao, nomePlot)
 
 #analise exploratoria
@@ -313,31 +313,31 @@ outliers <- function(regiao_text){
   }
   
   outlier_lista <- c(which(regiao$PrimeiroAno %in% c(boxplot.stats(regiao$PrimeiroAno)$out)))
-  outliers_primeiro = pn_regiao %>% filter(`1º Ano` %in% regiao$PrimeiroAno[outlier_lista])
+  outliers_primeiro = pn_regiao %>% filter(`1Âº Ano` %in% regiao$PrimeiroAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$SegundoAno %in% c(boxplot.stats(regiao$SegundoAno)$out)))
-  outliers_segundo = pn_regiao %>% filter(`1ª série/ 2° ano` %in% regiao$SegundoAno[outlier_lista])
+  outliers_segundo = pn_regiao %>% filter(`1Âª sÃ©rie/ 2Â° ano` %in% regiao$SegundoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$TerceiroAno %in% c(boxplot.stats(regiao$TerceiroAno)$out)))
-  outliers_terceiro = pn_regiao %>% filter(`2ª série/ 3° ano` %in% regiao$TerceiroAno[outlier_lista])
+  outliers_terceiro = pn_regiao %>% filter(`2Âª sÃ©rie/ 3Â° ano` %in% regiao$TerceiroAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$QuartoAno %in% c(boxplot.stats(regiao$QuartoAno)$out)))
-  outliers_quarto = pn_regiao %>% filter(`3ª série/ 4° ano` %in% regiao$QuartoAno[outlier_lista])
+  outliers_quarto = pn_regiao %>% filter(`3Âª sÃ©rie/ 4Â° ano` %in% regiao$QuartoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$QuintoAno %in% c(boxplot.stats(regiao$QuintoAno)$out)))
-  outliers_quinto = pn_regiao %>% filter(`4ª série/ 5° ano` %in% regiao$QuintoAno[outlier_lista])
+  outliers_quinto = pn_regiao %>% filter(`4Âª sÃ©rie/ 5Â° ano` %in% regiao$QuintoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$SextoAno %in% c(boxplot.stats(regiao$SextoAno)$out)))
-  outliers_sexto = pn_regiao %>% filter(`5ª série/ 6° ano` %in% regiao$SextoAno[outlier_lista])
+  outliers_sexto = pn_regiao %>% filter(`5Âª sÃ©rie/ 6Â° ano` %in% regiao$SextoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$SetimoAno %in% c(boxplot.stats(regiao$SetimoAno)$out)))
-  outliers_setimo = pn_regiao %>% filter(`6ª série/ 7° ano` %in% regiao$SetimoAno[outlier_lista])
+  outliers_setimo = pn_regiao %>% filter(`6Âª sÃ©rie/ 7Â° ano` %in% regiao$SetimoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$OitavoAno %in% c(boxplot.stats(regiao$OitavoAno)$out)))
-  outliers_oitavo = pn_regiao %>% filter(`7ª série/ 8° ano` %in% regiao$OitavoAno[outlier_lista])
+  outliers_oitavo = pn_regiao %>% filter(`7Âª sÃ©rie/ 8Â° ano` %in% regiao$OitavoAno[outlier_lista])
   
   outlier_lista <- c(which(regiao$NonoAno %in% c(boxplot.stats(regiao$NonoAno)$out)))
-  outliers_nono = pn_regiao %>% filter(`8ª série/ 9° ano` %in% regiao$NonoAno[outlier_lista])
+  outliers_nono = pn_regiao %>% filter(`8Âª sÃ©rie/ 9Â° ano` %in% regiao$NonoAno[outlier_lista])
   
   return (rbind(outliers_primeiro, outliers_segundo, outliers_terceiro, outliers_quarto, outliers_quinto,
                 outliers_sexto, outliers_setimo, outliers_oitavo, outliers_nono))
